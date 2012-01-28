@@ -1,0 +1,18 @@
+echo off
+echo ""
+echo GnuPGのインストールを開始します。
+echo 入力項目はデフォルトのままでインストールを進めてください。
+echo (言語は ja-Japaneseまたはen-Englishを選択してください。)
+pause
+csrc\gnupg-w32cli-1.4.9.exe
+echo .
+echo .
+echo GUIプログラムのインストールを開始します。
+echo デスクトップにショートカットを作成することができます。
+echo セキュリティの警告が表示された場合は、「今回は許可」を選択してください。
+choice /c yn /m "デスクトップにショートカットを作成しますか"
+if not ERRORLEVEL 2 makeShortCut.wsf
+PGencUI.exe -install
+echo .
+echo .
+echo インストールを完了しました。

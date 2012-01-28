@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\dialoguserinfo.o
+./debug\dialogaddressbook.o
+./debug\cgpgexec.o
+./debug\formhelp.o
+./debug\moc_mainwindow.o
+./debug\moc_dialoguserinfo.o
+./debug\moc_dialogaddressbook.o
+./debug\moc_cgpgexec.o
+./debug\moc_formhelp.o
+./debug\qrc_S3E.o
+);

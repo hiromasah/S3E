@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\dialoguserinfo.o
+./release\dialogaddressbook.o
+./release\cgpgexec.o
+./release\formhelp.o
+./release\moc_mainwindow.o
+./release\moc_dialoguserinfo.o
+./release\moc_dialogaddressbook.o
+./release\moc_cgpgexec.o
+./release\moc_formhelp.o
+./release\qrc_S3E.o
+);

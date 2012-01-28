@@ -1,0 +1,813 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>Help</TITLE>
+</HEAD>
+<BODY>
+<!-- 目次ー -->
+<TABLE border="0" width="800">
+  <TBODY>
+    <TR>
+      <TD colspan="2"><a name="helpTop"></a>ファイル暗号化支援ソフト（Simple and Secure Software for Encryption）（通称　Ｓ3Ｅ）　オンラインヘルプ</TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top"><a href="#hajimeni">第一章　はじめに</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni1">S3E とは</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni2">主な機能</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni3">動作条件</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">４．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni4">作者</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">５．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni5">ライセンス</a></TD>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top"><a href="#setup">第二章　セットアップ</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a href="#setup1">S3E パッケージの構成</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+      <TD width="95%" valign="top"><a href="#setup2">S3E のセットアップ方法</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a href="#setup3">GnuPG のセットアップ方法</a></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top"><a href="#opration">第三章　操作方法</a></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;&nbsp;<a href="#opration-main">【メイン画面】</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a href="#opration-main1">圧縮暗号化するファイルの選択</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+      <TD width="95%" valign="top"><a href="#opration-main2">選択の解除</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a href="#opration-main3">送付先の選択</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">４．</TD>
+      <TD width="95%" valign="top"><a href="#opration-main4">出力フォルダ選択</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">５．</TD>
+      <TD width="95%" valign="top"><a href="#opration-main5">暗号化実行</a></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;&nbsp;<a href="#opration-soufu">【送付先設定画面】</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a href="#opration-soufu1">登録送付先の情報確認</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+      <TD width="95%" valign="top"><a href="#opration-soufu2">送付先を追加する</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a href="#opration-soufu3">送付先を削除する</a></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;&nbsp;<a href="#opration-userinfo">【ユーザ情報設定画面】</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a href="#opration-userinfo1">ユーザ情報設定</a></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<br><hr>
+<br>
+<!-- 第一章　はじめにー -->
+<table border="0" width="800">
+    <tr>
+        <td colspan="2" valign="top"><a name="hajimeni"></a>第一章　はじめに</td>
+    <tr>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">この章では、S3E の特徴や動作条件、ライセンスについて記述しています。<br></TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a name="hajimeni1">S3E とは</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">この「ファイル暗号化支援ソフト（Simple and Secure Software for Encryption）（通称　Ｓ3Ｅ）」は、<br>
+GnuPGを使用してファイルの暗号化を簡単に行うための支援ソフトです。<br>
+選択された複数のファイルをtar.gz(tgz)フォーマットで１ファイルにまとめて、GnuPGで暗号化します。<br></TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+    <TD width="95%" valign="top"><a name="hajimeni2">主な機能</a></TD>
+  <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">１）</td>
+            <td valign="top" width="95%">暗号化するファイルを複数指定することが可能です。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%"></td>
+            <td valign="top" width="95%">指定したファイルをtar.gz(tgz)フォーマットで１ファイルにまとめて圧縮し、暗号化します。<br></td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">２）</td>
+            <td valign="top" width="95%">公開鍵を複数登録することができます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%"></td>
+            <td valign="top" width="95%">登録してある公開鍵を選択し、その公開鍵を使用して暗号化を行います。<br></td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%"></td>
+            <td valign="top" width="95%">公開鍵一覧から選択した公開鍵の鍵ID・指紋・署名等の詳細情報を確認することができます。<br></td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a name="hajimeni3">動作条件</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">以下のWindows OS が動作する環境下での使用を推奨します。<br>
+      ・Windows XP、Windows Vista、Windows 7<br>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">４．</TD>
+      <TD width="95%" valign="top"><a name="hajimeni4">作者</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">このソフトウェアは以下の3者が個人として、共同でアイディアとリソースを出し合い作成したものです。<br>
+<br>
+堀口　裕正 (hiromasa-tky@umin.ac.jp)<br>
+藤森　研司 (fujimori@med.hokudai.ac.jp)<br>
+石川ベンジャミン光一 (kishikaw@ncc.go.jp)<br>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">５．</TD>
+      <TD width="95%" valign="top"><a name="hajimeni5">ライセンス</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">S3E には、"GNU 一般公衆利用許諾契約書(GNU General Public License:GPL) Version 3"  (以下GNU GPL)を適用します。<br>
+このライセンスは次のような特徴を持ちます。</TD>
+    </TR>
+    <tr>
+      <td></td>
+      <td>
+         ・ソースコードが公開されている<br>
+         ・誰でも自由にプログラムの複製、頒布、改変ができる<br>
+         ・派生するソフトウェアにもGNU GPLを適用しなければならない<br>
+        ・GNU GPLのより詳しい内容はdoc/COPYING.txtをご覧ください。
+      </td>
+    </tr>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">他の団体・プロジェクト等で作成されたプログラムについて。</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">このパッケージには、本プログラムを使用するために必要なもので、他の団体・プロジェクト等で作成されたプログラムも同梱されています。<br>
+これらのプログラムの著作権は、それぞれのプログラムの作者が保有しています。<br>
+改変・再配布等の条件はそれぞれのプログラムのライセンスに従ってください。<br><br>
+同梱プログラム<br>
+・tar32.dll   http://openlab.ring.gr.jp/tsuneo/soft/tar32_1/<br>
+・GnuPG   http://www.gnupg.org/download/<br>
+・Qt      http://www.qtsoftware.com/downloads-jp<br>
+<br>
+1) tar32.dll(Ver0.53)<br>
+   吉岡　恒夫さんが開発されたファイルアーカイブ用DLL。<br>
+<br>
+2) GnuPG(Version 1.4.9)<br>
+   GNU Privacy Guard (GnuPG)は Pretty Good Privacy (PGP) の別実装として、<br>
+   GPL に基づいた暗号化ソフト。OpenPGP 規格 (RFC2440) に完全準拠。<br>
+<br>
+3) Qt(キュート)(Version 4.5.1)<br>
+   ノルウェーのQtソフトウェア社によって開発された、C++言語で書かれたクロス・<br>
+   プラットフォームGUIツールキット。オープンソース版のライセンスはGPL。<br>
+      </TD>
+    </TR>
+</table>
+<br>
+<br>
+<a href="#helpTop">トップに戻る</a>
+<br>
+<br>
+
+<table width="800">
+    <tr>
+        <td colspan="2" valign="top"><a name="setup">第二章 セットアップ</td>
+    <tr>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">この章では、パッケージの構成、インストール・アンインストール方法などについて記述しています。</TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a name="setup1">パッケージの構成</a></TD>
+    </TR>
+    <tr>
+      <td></td>
+      <td><table>
+        <tr><td>・help.html</td><td>ヘルプ・ファイル</td></tr>
+        <tr><td>・INSTALL.bat</td><td>インストール・バッチ・ファイル</td></tr>
+        <tr><td>・makeShortCut.wsf</td><td>ショートカット作成用スクリプト・ファイル</td></tr>
+        <tr><td>・S3E.exe</td><td>本アプリケーション本体</td></tr>
+        <tr><td>・S3E.ini</td><td>本アプリケーションのiniファイル</td></tr>
+        <tr><td>・QtCore4.dll</td><td>Qtのダイナミック・リンク・ライブラリ</td></tr>
+        <tr><td>・QtGui4.dll</td><td>Qtのダイナミック・リンク・ライブラリ</td></tr>
+        <tr><td>・mingwm10.dll</td><td>Qtのダイナミック・リンク・ライブラリ</td></tr>
+        <tr><td>・TAR32.DLL</td><td>tar.gz圧縮用ダイナミック・リンク・ライブラリ</td></tr>
+        <tr><td>・S3E.qm</td><td>日本語用言語ファイル</td></tr>
+        <tr><td colspan="2"></tr>
+        <tr><td>・pluginsフォルダ</td><td>Qtプラグイン</td></tr>
+        <tr><td colspan="2"></tr>
+        <tr><td>・srcフォルダ</td><td>本プログラムのソースファイル</td></tr>
+        <tr><td colspan="2"></tr>
+        <tr><td colspan="2">・csrcフォルダ</td></tr>
+        <tr><td>　tar32_1-20090305-010003.tar.gz</td><td>tar32.dllソース</td></tr>
+        <tr><td>　gnupg-w32cli-1.4.9.exe</td><td>GnuPGソース</td></tr>
+        <tr><td>　qt-win-opensource-4.5.1-mingw.exe</td><td>Qtソース</td></tr>
+        <tr><td colspan="2"></tr>
+        <tr><td colspan="2">・docフォルダ</td></tr>
+        <tr><td>　readme.txt</td><td>readmeファイル</td></tr>
+        <tr><td>　COPYING.txt</td><td>GNU 一般公有使用許諾書</td></tr>
+        <tr><td colspan="2">　GnuPG暗号化コマンド抜粋.txt</td></tr>
+        <tr><td colspan="2">　GnuPG復号化コマンド抜粋.txt</td></tr>
+      </table></td>
+    </tr>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+      <TD width="95%" valign="top"><a name="setup2">インストール方法</a></TD>
+    </TR>
+    <tr>
+      <td></td>
+      <td>
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">１）</td>
+            <td valign="top" width="95%">S3E.zipファイルの上でマウス右クリックします。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">２）</td>
+            <td valign="top" width="95%">すべて展開を選択します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">３）</td>
+            <td valign="top" width="95%">展開ウィザードが開きますので、次へボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">４）</td>
+            <td valign="top" width="95%">ファイル展開先フォルダは適当なローカルフォルダを選択し、次へボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">５）</td>
+            <td valign="top" width="95%">完了ボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">６）</td>
+            <td valign="top" width="95%">展開されたフォルダ内の「INSTALL.bat」をダブルクリックすると、最初にGnuPGのインストーラが起動します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%"></td>
+            <td valign="top" width="95%">（S3Eを動作させるには、GnuPGをインストールする必要があります。）</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">７）</td>
+            <td valign="top" width="95%">セットアップウイザードが表示されるので、以下手順でセットアップします。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%"></td>
+            <td valign="top" width="95%">・GnuPG version 1.4.9 というバージョン表示を確認し → NEXTボタンを押下する。<br>
+・ライセンス合意画面表示 → NEXTボタンを押下する。<br>
+・コンポーネント選択画面表示 → そのままNEXTボタンを押下する。<br>
+・言語選択画面表示 → ja-Japaneseまたはen-Englishを選択しNEXTボタンを押下する。<br>
+・インストールフォルダ選択画面表示 → デフォルトのままとする。<br>
+　32ビット版OS → C:\Program Files\GNU\GnuPG<br>
+　64ビット版OS → C:\Program Files (x86)\GNU\GnuPG<br>
+<br>
+　注意：インストールフォルダを変更した場合は、本アプリケーションの iniファイルに、その旨記述する必要があります。<br>
+<br>
+・ショートカット要否画面表示 → 作成しない（Do not create shortcuts)をクリックしInstallボタンを押下する。<br>
+・インストール完了画面表示 → セットアップ正常終了（successfully）を確認しNEXTボタンを押下する。<br>
+・Finishボタンを押下する。<br><br>
+セットアップウイザードが閉じ、GnuPGのインストールは終了です。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">８）</td>
+            <td valign="top" width="95%">「デスクトップにショートカットを作成しますか{Y/M}? と表示されますので、<br>
+作成する場合は「Y」を入力してください。<br>
+(セキュリティの警告が表示された場合は、「今回は許可」を選択してください)</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">９）</td>
+            <td valign="top" width="95%">「ユーザ情報を設定してください。」と表示されます。<br>
+OKをクリックするとユーザ情報設定画面が表示されます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">１０）</td>
+            <td valign="top" width="95%">利用者の情報を入力して、OKをクリックするとメイン画面が表示されます。<br>
+(ユーザ情報がiniファイルにプリセットされている場合は、表示内容を確認してOKをクリックしてください)</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </td>
+    </tr>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a name="setup2">アンインストール方法</a></TD>
+    </TR>
+    <tr>
+      <td></td>
+      <td>
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">１）</td>
+            <td valign="top" width="95%">GnuPGインストール・フォルダ内の uninst-gnupg.exe をダブルクリックするとアンインストール・ウィザードが開始します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">２）</td>
+            <td valign="top" width="95%">S3Eフォルダを削除します。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </td>
+    </tr>
+</table>
+<br>
+<br>
+<a href="#helpTop">トップに戻る</a>
+<br>
+<br>
+<!-- 第三章　操作方法ー -->
+<table border="0" width="800">
+    <tr>
+        <td colspan="2" valign="top"><a name="opration">第三章　操作方法</a></td>
+    <tr>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">この章では S3E でファイルを圧縮暗号化する操作方法について記述します。<br></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">一連の操作手順は、以下の通りです。
+  <!-- テーブルのネスト Start-->
+          <table width="100%">
+            <tr>
+              <td align="right" valign="top" width="5%">１）</td>
+              <td valign="top" width="95%">圧縮・暗号化するファイルを選択します。</td>
+            </tr>
+            <tr>
+              <td align="right" valign="top" width="5%">２）</td>
+              <td valign="top" width="95%">送付先（使用する公開鍵）を選択します。</td>
+            </tr>
+            <tr>
+              <td align="right" valign="top" width="5%">３）</td>
+              <td valign="top" width="95%">暗号化ファイルの出力先を指定します。</td>
+            </tr>
+            <tr>
+              <td align="right" valign="top" width="5%">４）</td>
+              <td valign="top" width="95%">暗号化を実行します。</td>
+            </tr>
+          </table>
+  <!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;&nbsp;<a name="opration-main">【メイン画面】</a></TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">１．</TD>
+      <TD valign="top" width="95%"><a name="opration-main1">圧縮暗号化するファイルの選択</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>追加</B>」ボタン押下で、ファイル選択ダイアログを開きます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">対象のファイルを選択します。<br>Ctrl＋マウス左クリック、Shift＋マウス左クリックで複数同時選択も可能です。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">または、対象のファイルを<B>ドラッグ＆ドロップ</B>で対象ファイル一覧表示エリアに追加することができます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">選択ファイル数および合計ファイルサイズが表示されます。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">２．</TD>
+      <TD valign="top" width="95%"><a name="opration-main2">選択の解除</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">対象ファイル一覧表示エリアのファイルを選択（マウス左クリック）し、「<B>削除</B>」ボタン押下で、圧縮暗号化対象から解除されます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">複数ファイル一括選択での一括解除も可能です。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">３．</TD>
+      <TD valign="top" width="95%"><a name="opration-main3">送付先の選択</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">送付先をプルダウンメニューから選択します。<br>
+        ※ 送付先は<B>送付先設定画面</B>で登録することができます。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">４．</TD>
+      <TD valign="top" width="95%"><a name="opration-main4">出力フォルダ選択</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>参照</B>」ボタン押下で、フォルダ選択ダイアログを開きます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">圧縮暗号化したファイルの出力先を指定します。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">５．</TD>
+      <TD valign="top" width="95%"><a name="opration-main5">暗号化実行</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>暗号化</B>」ボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">暗号化中のダイアログが表示され、暗号化が終了すると「<B>暗号化完了</B>」のダイアログが表示されます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">暗号化完了ダイアログに、「暗号化ファイル」および「レシートファイル」のパスを含んだファイル名が表示されますので、<br>
+内容を確認し、「<B>OK</B>」ボタンを押下します。<br>
+暗号化ファイルおよびレシートファイルは、下記の命名規則で作成されます。<br>
+<br>
+暗号化ファイル   : ID_yyyymmddhhmmss.tgz.gpg<br>
+レシートファイル : ID_yyyymmddhhmmss.txt<br>
+  (IDは、ユーザ情報設定画面で設定したID。yyyymmddhhmmssは、暗号化を実行した年月日時分秒)<br>
+<br>
+レシートファイルには、暗号化後のファイル名（EF）、ファイルサイズ（FS）、対象ファイル名（IF）が記載されます。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;&nbsp;<a name="opration-soufu">【送付先設定画面】</a></TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">１．</TD>
+      <TD valign="top" width="95%"><a name="opration-soufu1">登録送付先の情報確認</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">確認する送付先をプルダウンメニューから選択します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">選択した送付先の各種情報が表示されます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%"></td>
+            <td valign="top" width="95%">
+      <!-- テーブルのネスト Start-->
+              <table width="100%">
+                <tr>
+                  <td align="right" valign="top" width="5%">１）</td>
+                  <td valign="top" width="95%">公開鍵ファイルの内容を表示します。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">２）</td>
+                  <td valign="top" width="95%">送付先名称は公開鍵IDを表示します。必要に応じて変更することができます。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">３）</td>
+                  <td valign="top" width="95%">公開鍵のファイルパス名を表示します。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">４）</td>
+                  <td valign="top" width="95%">PubKeyID、鍵サイズ、作成日、有効期限を表示します。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">５）</td>
+                  <td valign="top" width="95%">SubKeyID、鍵サイズ、作成日、有効期限を表示します。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">６）</td>
+                  <td valign="top" width="95%">本名を表示します。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">７）</td>
+                  <td valign="top" width="95%">Eメールアドレスを表示します。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">８）</td>
+                  <td valign="top" width="95%">コメントを表示します。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">９）</td>
+                  <td valign="top" width="95%">指紋を表示します。</td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top" width="5%">10）</td>
+                  <td valign="top" width="95%">署名を表示します。</td>
+                </tr></table>
+      <!-- テーブルのネスト End-->
+            </td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「送付先リスト」にチェックをつけるとメイン画面で送付先リストに記載されます。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">２．</TD>
+      <TD valign="top" width="95%"><a name="opration-soufu2">送付先を追加する</a></TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+      <TD valign="top" width="95%"><a name="opration-soufu2">１）公開鍵ファイルをインポートする</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>送付先を追加</B>」ボタン押下で、ファイル選択ダイアログを開きます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">ファイル選択ダイアログから追加する公開鍵ファイルを選択します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">選択した公開鍵の各種情報が表示されますので、内容確認後「<B>OK</B>」ボタン押下で登録が完了します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">送付先名称は公開鍵IDを表示していますが、必要に応じて変更することができます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">メイン画面の送付先リストに記載しない場合は「送付先リスト」のチェックを外します。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+      <TD valign="top" width="95%"><a name="opration-soufu2">２）公開鍵テキスト情報をインポートする</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">ウェブサイトなどに表示されている公開鍵をクリップボードにコピーし、「<B>送付先情報</B>」の「<B>公開鍵</B>」エリアにペーストします。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>OK</B>」ボタン押下で、公開鍵の各種情報が表示されます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">内容確認後「<B>OK</B>」ボタン押下で登録が完了します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">送付先名称は公開鍵IDを表示していますが、必要に応じて変更することができます。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">３．</TD>
+      <TD valign="top" width="95%"><a name="opration-soufu3">送付先を削除する</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">削除する送付先をプルダウンメニューから選択します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">選択した送付先の各種情報が表示されますので、内容を確認し「<B>削除</B>」ボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>削除確認</B>」のダイアログが表示されますので「YES」ボタン押下で、選択した送付先が削除されます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">送付先一覧のプルダウンメニューに表示されていないことで削除が確認できます。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;&nbsp;<a name="opration-userinfo">【ユーザ情報設定画面】</a></TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">１．</TD>
+      <TD valign="top" width="95%"><a name="opration-userinfo1">ユーザ情報設定</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">ID：半角英数のみで設定します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">ユーザ名：半角英数、全角文字で設定します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%"></td>
+            <td valign="top" width="95%">※ユーザ名およびIDは暗号化ファイルのファイル名に使用します。<br><br>
+
+→ 暗号化ファイル：ID_yyyymmddhhmmss.tgz.gpg<br>
+→レシートファイル：ID_yyyymmddhhmmss.txt
+</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+</table>
+<br>
+<a href="#helpTop">トップに戻る</a>
+
+</BODY>
+</HTML>
