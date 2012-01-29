@@ -1,188 +1,188 @@
-ƒtƒ@ƒCƒ‹ˆÃ†‰»Žx‰‡ƒ\ƒtƒgi’ÊÌ@‚r3‚dj
+ãƒ•ã‚¡ã‚¤ãƒ«æš—å·åŒ–æ”¯æ´ã‚½ãƒ•ãƒˆï¼ˆé€šç§°ã€€ï¼³3ï¼¥ï¼‰
 
 
-y1.‚Í‚¶‚ß‚Éz------------------------------------------------------------------
+ã€1.ã¯ã˜ã‚ã«ã€‘------------------------------------------------------------------
 
-‚±‚Ìuƒtƒ@ƒCƒ‹ˆÃ†‰»Žx‰‡ƒ\ƒtƒgiSimple and Secure Software for Encryptionj
-i’ÊÌ@‚r3‚djv‚ÍAGnuPG‚ðŽg—p‚µ‚Äƒtƒ@ƒCƒ‹‚Ìˆ³kˆÃ†‰»‚ðŠÈ’P‚És‚¤‚½‚ß‚Ì
-Žx‰‡ƒ\ƒtƒg‚Å‚·B
-‘I‘ð‚³‚ê‚½•¡”‚Ìƒtƒ@ƒCƒ‹‚ðtar.gz(tgz)ƒtƒH[ƒ}ƒbƒg‚Å‚Pƒtƒ@ƒCƒ‹‚É‚Ü‚Æ‚ß‚Äˆ³k‚µA
-GnuPG‚ÅˆÃ†‰»‚µ‚Ü‚·B
-
-
-y2.ìŽÒz----------------------------------------------------------------------
-‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ÍˆÈ‰º‚Ì3ŽÒ‚ªŒÂl‚Æ‚µ‚ÄA‹¤“¯‚ÅƒAƒCƒfƒBƒA‚ÆƒŠƒ\[ƒX‚ðo‚µ‡‚¢
-ì¬‚µ‚½‚à‚Ì‚Å‚·B
-
-–xŒû@—T³ (hiromasa-tky@umin.ac.jp)
-“¡X@Œ¤Ži@(fujimori@med.hokudai.ac.jp)
-Îìƒxƒ“ƒWƒƒƒ~ƒ“Œõˆê (kishikaw@ncc.go.jp)
+ã“ã®ã€Œãƒ•ã‚¡ã‚¤ãƒ«æš—å·åŒ–æ”¯æ´ã‚½ãƒ•ãƒˆï¼ˆSimple and Secure Software for Encryptionï¼‰
+ï¼ˆé€šç§°ã€€ï¼³3ï¼¥ï¼‰ã€ã¯ã€GnuPGã‚’ä½¿ç”¨ã—ã¦ãƒ•ã‚¡ã‚¤ãƒ«ã®åœ§ç¸®æš—å·åŒ–ã‚’ç°¡å˜ã«è¡Œã†ãŸã‚ã®
+æ”¯æ´ã‚½ãƒ•ãƒˆã§ã™ã€‚
+é¸æŠžã•ã‚ŒãŸè¤‡æ•°ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’tar.gz(tgz)ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆã§ï¼‘ãƒ•ã‚¡ã‚¤ãƒ«ã«ã¾ã¨ã‚ã¦åœ§ç¸®ã—ã€
+GnuPGã§æš—å·åŒ–ã—ã¾ã™ã€‚
 
 
-y3.ƒ‰ƒCƒZƒ“ƒXz----------------------------------------------------------------
+ã€2.ä½œè€…ã€‘----------------------------------------------------------------------
+ã“ã®ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã¯ä»¥ä¸‹ã®3è€…ãŒå€‹äººã¨ã—ã¦ã€å…±åŒã§ã‚¢ã‚¤ãƒ‡ã‚£ã‚¢ã¨ãƒªã‚½ãƒ¼ã‚¹ã‚’å‡ºã—åˆã„
+ä½œæˆã—ãŸã‚‚ã®ã§ã™ã€‚
 
-  GNU ˆê”ÊŒöO—˜—p‹–‘øŒ_–ñ‘(GNU General Public License:GPL) Version 3
+å €å£ã€€è£•æ­£ (hiromasa-tky@umin.ac.jp)
+è—¤æ£®ã€€ç ”å¸ã€€(fujimori@med.hokudai.ac.jp)
+çŸ³å·ãƒ™ãƒ³ã‚¸ãƒ£ãƒŸãƒ³å…‰ä¸€ (kishikaw@ncc.go.jp)
 
-  uS3Ev‚É‚ÍA"GNU ˆê”ÊŒöO—˜—p‹–‘øŒ_–ñ‘(GNU General Public License:GPL) Version 3"
-  (ˆÈ‰ºGNU GPL)‚ð“K—p‚µ‚Ü‚·B‚±‚Ìƒ‰ƒCƒZƒ“ƒX‚ÍŽŸ‚Ì‚æ‚¤‚È“Á’¥‚ðŽ‚¿‚Ü‚·B
 
-  Eƒ\[ƒXƒR[ƒh‚ªŒöŠJ‚³‚ê‚Ä‚¢‚é 
-  E’N‚Å‚àŽ©—R‚ÉƒvƒƒOƒ‰ƒ€‚Ì•¡»A”Ð•zA‰ü•Ï‚ª‚Å‚«‚é 
-  E”h¶‚·‚éƒ\ƒtƒgƒEƒFƒA‚É‚àGNU GPL‚ð“K—p‚µ‚È‚¯‚ê‚Î‚È‚ç‚È‚¢ 
-  EGNU GPL‚Ì‚æ‚èÚ‚µ‚¢“à—e‚ÍCOPYING.txt(‰p•¶)‚ð‚²——‚­‚¾‚³‚¢B
+ã€3.ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã€‘----------------------------------------------------------------
 
-  ‘¼‚Ì’c‘ÌEƒvƒƒWƒFƒNƒg“™‚Åì¬‚³‚ê‚½ƒvƒƒOƒ‰ƒ€‚É‚Â‚¢‚Ä
+  GNU ä¸€èˆ¬å…¬è¡†åˆ©ç”¨è¨±è«¾å¥‘ç´„æ›¸(GNU General Public License:GPL) Version 3
 
-  ‚±‚ÌƒpƒbƒP[ƒW‚É‚ÍA–{ƒvƒƒOƒ‰ƒ€‚ðŽg—p‚·‚é‚½‚ß‚É•K—v‚È‚à‚Ì‚ÅA‘¼‚Ì’c‘ÌE
-  ƒvƒƒWƒFƒNƒg“™‚Åì¬‚³‚ê‚½ƒvƒƒOƒ‰ƒ€‚à“¯«‚³‚ê‚Ä‚¢‚Ü‚·B
-  ‚±‚ê‚ç‚ÌƒvƒƒOƒ‰ƒ€‚Ì’˜ìŒ ‚ÍA‚»‚ê‚¼‚ê‚ÌƒvƒƒOƒ‰ƒ€‚ÌìŽÒ‚ª•Û—L‚µ‚Ä‚¢‚Ü‚·B
-  ‰ü•ÏEÄ”z•z“™‚ÌðŒ‚Í‚»‚ê‚¼‚ê‚ÌƒvƒƒOƒ‰ƒ€‚Ìƒ‰ƒCƒZƒ“ƒX‚É]‚Á‚Ä‚­‚¾‚³‚¢B
+  ã€ŒS3Eã€ã«ã¯ã€"GNU ä¸€èˆ¬å…¬è¡†åˆ©ç”¨è¨±è«¾å¥‘ç´„æ›¸(GNU General Public License:GPL) Version 3"
+  (ä»¥ä¸‹GNU GPL)ã‚’é©ç”¨ã—ã¾ã™ã€‚ã“ã®ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã¯æ¬¡ã®ã‚ˆã†ãªç‰¹å¾´ã‚’æŒã¡ã¾ã™ã€‚
 
-  “¯«ƒvƒƒOƒ‰ƒ€
-  Etar32.dll	 http://openlab.ring.gr.jp/tsuneo/soft/tar32_1/
-  EGnuPG			 http://www.gnupg.org/download/
-  EQt				 http://www.qtsoftware.com/downloads-jp
+  ãƒ»ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ãŒå…¬é–‹ã•ã‚Œã¦ã„ã‚‹ 
+  ãƒ»èª°ã§ã‚‚è‡ªç”±ã«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®è¤‡è£½ã€é ’å¸ƒã€æ”¹å¤‰ãŒã§ãã‚‹ 
+  ãƒ»æ´¾ç”Ÿã™ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã«ã‚‚GNU GPLã‚’é©ç”¨ã—ãªã‘ã‚Œã°ãªã‚‰ãªã„ 
+  ãƒ»GNU GPLã®ã‚ˆã‚Šè©³ã—ã„å†…å®¹ã¯COPYING.txt(è‹±æ–‡)ã‚’ã”è¦§ãã ã•ã„ã€‚
+
+  ä»–ã®å›£ä½“ãƒ»ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆç­‰ã§ä½œæˆã•ã‚ŒãŸãƒ—ãƒ­ã‚°ãƒ©ãƒ ã«ã¤ã„ã¦
+
+  ã“ã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã«ã¯ã€æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ä½¿ç”¨ã™ã‚‹ãŸã‚ã«å¿…è¦ãªã‚‚ã®ã§ã€ä»–ã®å›£ä½“ãƒ»
+  ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆç­‰ã§ä½œæˆã•ã‚ŒãŸãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚‚åŒæ¢±ã•ã‚Œã¦ã„ã¾ã™ã€‚
+  ã“ã‚Œã‚‰ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®è‘—ä½œæ¨©ã¯ã€ãã‚Œãžã‚Œã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®ä½œè€…ãŒä¿æœ‰ã—ã¦ã„ã¾ã™ã€‚
+  æ”¹å¤‰ãƒ»å†é…å¸ƒç­‰ã®æ¡ä»¶ã¯ãã‚Œãžã‚Œã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã«å¾“ã£ã¦ãã ã•ã„ã€‚
+
+  åŒæ¢±ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
+  ãƒ»tar32.dll	 http://openlab.ring.gr.jp/tsuneo/soft/tar32_1/
+  ãƒ»GnuPG			 http://www.gnupg.org/download/
+  ãƒ»Qt				 http://www.qtsoftware.com/downloads-jp
 
 1) tar32.dll(Ver0.53)
-   ‹g‰ª@P•v‚³‚ñ‚ªŠJ”­‚³‚ê‚½ƒtƒ@ƒCƒ‹ƒA[ƒJƒCƒu—pDLLB
+   å‰å²¡ã€€æ’å¤«ã•ã‚“ãŒé–‹ç™ºã•ã‚ŒãŸãƒ•ã‚¡ã‚¤ãƒ«ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ç”¨DLLã€‚
 
 2) GnuPG(Version 1.4.9)
-   GNU Privacy Guard (GnuPG)‚Í Pretty Good Privacy (PGP) ‚Ì•ÊŽÀ‘•‚Æ‚µ‚ÄA
-   GPL ‚ÉŠî‚Ã‚¢‚½ˆÃ†‰»ƒ\ƒtƒgBOpenPGP ‹KŠi (RFC2440) ‚ÉŠ®‘S€‹’B
+   GNU Privacy Guard (GnuPG)ã¯ Pretty Good Privacy (PGP) ã®åˆ¥å®Ÿè£…ã¨ã—ã¦ã€
+   GPL ã«åŸºã¥ã„ãŸæš—å·åŒ–ã‚½ãƒ•ãƒˆã€‚OpenPGP è¦æ ¼ (RFC2440) ã«å®Œå…¨æº–æ‹ ã€‚
 
-3) Qt(ƒLƒ…[ƒg)(Version 4.5.1)
-   ƒmƒ‹ƒEƒF[‚ÌQtƒ\ƒtƒgƒEƒFƒAŽÐ‚É‚æ‚Á‚ÄŠJ”­‚³‚ê‚½AC++Œ¾Œê‚Å‘‚©‚ê‚½ƒNƒƒXE
-   ƒvƒ‰ƒbƒgƒtƒH[ƒ€GUIƒc[ƒ‹ƒLƒbƒgBƒI[ƒvƒ“ƒ\[ƒX”Å‚Ìƒ‰ƒCƒZƒ“ƒX‚ÍGPLB
+3) Qt(ã‚­ãƒ¥ãƒ¼ãƒˆ)(Version 4.5.1)
+   ãƒŽãƒ«ã‚¦ã‚§ãƒ¼ã®Qtã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ç¤¾ã«ã‚ˆã£ã¦é–‹ç™ºã•ã‚ŒãŸã€C++è¨€èªžã§æ›¸ã‹ã‚ŒãŸã‚¯ãƒ­ã‚¹ãƒ»
+   ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ GUIãƒ„ãƒ¼ãƒ«ã‚­ãƒƒãƒˆã€‚ã‚ªãƒ¼ãƒ—ãƒ³ã‚½ãƒ¼ã‚¹ç‰ˆã®ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã¯GPLã€‚
 
 
-y4.ƒA[ƒJƒCƒu“à—ez------------------------------------------------------------
-  help.html									ƒwƒ‹ƒvEƒtƒ@ƒCƒ‹
-  INSTALL.bat								ƒCƒ“ƒXƒg[ƒ‹Eƒoƒbƒ`Eƒtƒ@ƒCƒ‹
-  makeShortCut.wsf					ƒVƒ‡[ƒgƒJƒbƒgì¬—pƒXƒNƒŠƒvƒgEƒtƒ@ƒCƒ‹
-  S3E.exe										–{ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–{‘Ì
-  S3E.ini										–{ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ìiniƒtƒ@ƒCƒ‹
-  QtCore4.dll								Qt‚Ìƒ_ƒCƒiƒ~ƒbƒNEƒŠƒ“ƒNEƒ‰ƒCƒuƒ‰ƒŠ
-  QtGui4.dll								Qt‚Ìƒ_ƒCƒiƒ~ƒbƒNEƒŠƒ“ƒNEƒ‰ƒCƒuƒ‰ƒŠ
-  mingwm10.dll							Qt‚Ìƒ_ƒCƒiƒ~ƒbƒNEƒŠƒ“ƒNEƒ‰ƒCƒuƒ‰ƒŠ
-  TAR32.DLL									tar.gzˆ³k—pƒ_ƒCƒiƒ~ƒbƒNEƒŠƒ“ƒNEƒ‰ƒCƒuƒ‰ƒŠ
-  S3E.qm										“ú–{Œê—pŒ¾Œêƒtƒ@ƒCƒ‹
+ã€4.ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–å†…å®¹ã€‘------------------------------------------------------------
+  help.html									ãƒ˜ãƒ«ãƒ—ãƒ»ãƒ•ã‚¡ã‚¤ãƒ«
+  INSTALL.bat								ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ»ãƒãƒƒãƒãƒ»ãƒ•ã‚¡ã‚¤ãƒ«
+  makeShortCut.wsf					ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆä½œæˆç”¨ã‚¹ã‚¯ãƒªãƒ—ãƒˆãƒ»ãƒ•ã‚¡ã‚¤ãƒ«
+  S3E.exe										æœ¬ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³æœ¬ä½“
+  S3E.ini										æœ¬ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã®iniãƒ•ã‚¡ã‚¤ãƒ«
+  QtCore4.dll								Qtã®ãƒ€ã‚¤ãƒŠãƒŸãƒƒã‚¯ãƒ»ãƒªãƒ³ã‚¯ãƒ»ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
+  QtGui4.dll								Qtã®ãƒ€ã‚¤ãƒŠãƒŸãƒƒã‚¯ãƒ»ãƒªãƒ³ã‚¯ãƒ»ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
+  mingwm10.dll							Qtã®ãƒ€ã‚¤ãƒŠãƒŸãƒƒã‚¯ãƒ»ãƒªãƒ³ã‚¯ãƒ»ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
+  TAR32.DLL									tar.gzåœ§ç¸®ç”¨ãƒ€ã‚¤ãƒŠãƒŸãƒƒã‚¯ãƒ»ãƒªãƒ³ã‚¯ãƒ»ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
+  S3E.qm										æ—¥æœ¬èªžç”¨è¨€èªžãƒ•ã‚¡ã‚¤ãƒ«
 
-pluginsƒtƒHƒ‹ƒ_
-  Qtƒvƒ‰ƒOƒCƒ“
+pluginsãƒ•ã‚©ãƒ«ãƒ€
+  Qtãƒ—ãƒ©ã‚°ã‚¤ãƒ³
 
-srcƒtƒHƒ‹ƒ_
-  –{ƒvƒƒOƒ‰ƒ€‚Ìƒ\[ƒXƒtƒ@ƒCƒ‹
+srcãƒ•ã‚©ãƒ«ãƒ€
+  æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«
   
-csrcƒtƒHƒ‹ƒ_
-  tar32_1-20090305-010003.tar.gz			tar32.dllƒ\[ƒX
-  gnupg-w32cli-1.4.9.exe							GnuPGƒ\[ƒX
-  qt-win-opensource-4.5.1-mingw.exe		Qtƒ\[ƒX
+csrcãƒ•ã‚©ãƒ«ãƒ€
+  tar32_1-20090305-010003.tar.gz			tar32.dllã‚½ãƒ¼ã‚¹
+  gnupg-w32cli-1.4.9.exe							GnuPGã‚½ãƒ¼ã‚¹
+  qt-win-opensource-4.5.1-mingw.exe		Qtã‚½ãƒ¼ã‚¹
 
-docƒtƒHƒ‹ƒ_
-  readme.txt								‚±‚Ìƒtƒ@ƒCƒ‹
-  COPYING.txt								GNU ˆê”ÊŒö—LŽg—p‹–‘ø‘
-	GnuPGˆÃ†‰»ƒRƒ}ƒ“ƒh”²ˆ.txt
-	GnuPG•œ†‰»ƒRƒ}ƒ“ƒh”²ˆ.txt
+docãƒ•ã‚©ãƒ«ãƒ€
+  readme.txt								ã“ã®ãƒ•ã‚¡ã‚¤ãƒ«
+  COPYING.txt								GNU ä¸€èˆ¬å…¬æœ‰ä½¿ç”¨è¨±è«¾æ›¸
+	GnuPGæš—å·åŒ–ã‚³ãƒžãƒ³ãƒ‰æŠœç²‹.txt
+	GnuPGå¾©å·åŒ–ã‚³ãƒžãƒ³ãƒ‰æŠœç²‹.txt
 
 
-y5.ƒCƒ“ƒXƒg[ƒ‹•û–@z----------------------------------------------------------
+ã€5.ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•ã€‘----------------------------------------------------------
 
-1) S3E.zipƒtƒ@ƒCƒ‹‚Ìã‚Åƒ}ƒEƒX‰EƒNƒŠƒbƒN‚µ‚Ü‚·B
+1) S3E.zipãƒ•ã‚¡ã‚¤ãƒ«ã®ä¸Šã§ãƒžã‚¦ã‚¹å³ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚
 
-2) ‚·‚×‚Ä“WŠJ‚ð‘I‘ð‚µ‚Ü‚·B
+2) ã™ã¹ã¦å±•é–‹ã‚’é¸æŠžã—ã¾ã™ã€‚
 
-3) “WŠJƒEƒBƒU[ƒh‚ªŠJ‚«‚Ü‚·‚Ì‚ÅAŽŸ‚Öƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚µ‚Ü‚·B
+3) å±•é–‹ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰ãŒé–‹ãã¾ã™ã®ã§ã€æ¬¡ã¸ãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã—ã¾ã™ã€‚
 
-4) ƒtƒ@ƒCƒ‹“WŠJæƒtƒHƒ‹ƒ_‚ÍAc:\Program Files“™“K“–‚Èƒ[ƒJƒ‹ƒtƒHƒ‹ƒ_‚ð‘I‘ð‚µA
-ŽŸ‚Öƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚µ‚Ü‚·B
-¦ƒlƒbƒgƒ[ƒNã‚ÌƒtƒHƒ‹ƒ_‚É“WŠJ‚·‚é‚ÆƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚Ü‚¹‚ñB
+4) ãƒ•ã‚¡ã‚¤ãƒ«å±•é–‹å…ˆãƒ•ã‚©ãƒ«ãƒ€ã¯ã€c:\Program Filesç­‰é©å½“ãªãƒ­ãƒ¼ã‚«ãƒ«ãƒ•ã‚©ãƒ«ãƒ€ã‚’é¸æŠžã—ã€
+æ¬¡ã¸ãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã—ã¾ã™ã€‚
+â€»ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ä¸Šã®ãƒ•ã‚©ãƒ«ãƒ€ã«å±•é–‹ã™ã‚‹ã¨ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã§ãã¾ã›ã‚“ã€‚
 
-5) Š®—¹ƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚µ‚Ü‚·B
+5) å®Œäº†ãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã—ã¾ã™ã€‚
 
-6) “WŠJ‚³‚ê‚½ƒtƒHƒ‹ƒ_“à‚ÌuINSTALL.batviŠg’£Žq‚ª•\Ž¦‚³‚ê‚È‚¢Ý’è‚Ìê‡‚ÍuINSTALLv
-‚Æ•\Ž¦‚³‚ê‚Ü‚·j‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆAÅ‰‚ÉGnuPG‚ÌƒCƒ“ƒXƒg[ƒ‰‚ª‹N“®‚µ‚Ü‚·B
-  iS3E‚ð“®ì‚³‚¹‚é‚É‚ÍAGnuPG‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é•K—v‚ª‚ ‚è‚Ü‚·Bj
+6) å±•é–‹ã•ã‚ŒãŸãƒ•ã‚©ãƒ«ãƒ€å†…ã®ã€ŒINSTALL.batã€ï¼ˆæ‹¡å¼µå­ãŒè¡¨ç¤ºã•ã‚Œãªã„è¨­å®šã®å ´åˆã¯ã€ŒINSTALLã€
+ã¨è¡¨ç¤ºã•ã‚Œã¾ã™ï¼‰ã‚’ãƒ€ãƒ–ãƒ«ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ã€æœ€åˆã«GnuPGã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãŒèµ·å‹•ã—ã¾ã™ã€‚
+  ï¼ˆS3Eã‚’å‹•ä½œã•ã›ã‚‹ã«ã¯ã€GnuPGã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ï¼‰
 
-7) ƒZƒbƒgƒAƒbƒvƒEƒCƒU[ƒh‚ª•\Ž¦‚³‚ê‚é‚Ì‚ÅAˆÈ‰º‚ÌŽè‡‚ÅƒZƒbƒgƒAƒbƒv‚µ‚Ü‚·B
+7) ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ã‚¦ã‚¤ã‚¶ãƒ¼ãƒ‰ãŒè¡¨ç¤ºã•ã‚Œã‚‹ã®ã§ã€ä»¥ä¸‹ã®æ‰‹é †ã§ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ã—ã¾ã™ã€‚
 
- EGnuPG version 1.4.9 ‚Æ‚¢‚¤ƒo[ƒWƒ‡ƒ“•\Ž¦‚ðŠm”F‚µ ¨ NEXTƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚·‚éB
- Eƒ‰ƒCƒZƒ“ƒX‡ˆÓ‰æ–Ê•\Ž¦ ¨ NEXTƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚·‚éBi‚·‚Å‚ÉGnuPG‚ªƒCƒ“ƒXƒg[ƒ‹Ï‚Ý‚Ìê‡‚ÍCANCEL‚ð‰Ÿ‰ºj
- EƒRƒ“ƒ|[ƒlƒ“ƒg‘I‘ð‰æ–Ê•\Ž¦ ¨ ‚»‚Ì‚Ü‚ÜNEXTƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚·‚éB
- EŒ¾Œê‘I‘ð‰æ–Ê•\Ž¦ ¨ ja-Japanese‚Ü‚½‚Íen-English‚ð‘I‘ð‚µNEXTƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚·‚éB
- EƒCƒ“ƒXƒg[ƒ‹ƒtƒHƒ‹ƒ_‘I‘ð‰æ–Ê•\Ž¦ ¨ ƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚Ü‚Æ‚·‚éB
-    32ƒrƒbƒg”ÅOS ¨ C:\Program Files\GNU\GnuPG
-    64ƒrƒbƒg”ÅOS ¨ C:\Program Files (x86)\GNU\GnuPG
+ ãƒ»GnuPG version 1.4.9 ã¨ã„ã†ãƒãƒ¼ã‚¸ãƒ§ãƒ³è¡¨ç¤ºã‚’ç¢ºèªã— â†’ NEXTãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã™ã‚‹ã€‚
+ ãƒ»ãƒ©ã‚¤ã‚»ãƒ³ã‚¹åˆæ„ç”»é¢è¡¨ç¤º â†’ NEXTãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã™ã‚‹ã€‚ï¼ˆã™ã§ã«GnuPGãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿ã®å ´åˆã¯CANCELã‚’æŠ¼ä¸‹ï¼‰
+ ãƒ»ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆé¸æŠžç”»é¢è¡¨ç¤º â†’ ãã®ã¾ã¾NEXTãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã™ã‚‹ã€‚
+ ãƒ»è¨€èªžé¸æŠžç”»é¢è¡¨ç¤º â†’ ja-Japaneseã¾ãŸã¯en-Englishã‚’é¸æŠžã—NEXTãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã™ã‚‹ã€‚
+ ãƒ»ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ•ã‚©ãƒ«ãƒ€é¸æŠžç”»é¢è¡¨ç¤º â†’ ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ã¾ã¾ã¨ã™ã‚‹ã€‚
+    32ãƒ“ãƒƒãƒˆç‰ˆOS â†’ C:\Program Files\GNU\GnuPG
+    64ãƒ“ãƒƒãƒˆç‰ˆOS â†’ C:\Program Files (x86)\GNU\GnuPG
 
-   ’ˆÓFƒCƒ“ƒXƒg[ƒ‹ƒtƒHƒ‹ƒ_‚ð•ÏX‚µ‚½ê‡‚ÍA
-         –{ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì iniƒtƒ@ƒCƒ‹‚ÉA‚»‚ÌŽ|‹Lq‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+   æ³¨æ„ï¼šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ•ã‚©ãƒ«ãƒ€ã‚’å¤‰æ›´ã—ãŸå ´åˆã¯ã€
+         æœ¬ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã® iniãƒ•ã‚¡ã‚¤ãƒ«ã«ã€ãã®æ—¨è¨˜è¿°ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
 
- EƒCƒ“ƒXƒg[ƒ‹Š®—¹‰æ–Ê•\Ž¦ ¨ ƒZƒbƒgƒAƒbƒv³íI—¹isuccessfullyj‚ðŠm”F‚µNEXTƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚·‚éB
- EFinishƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚·‚éB
- ƒZƒbƒgƒAƒbƒvƒEƒCƒU[ƒh‚ª•Â‚¶AGnuPG‚ÌƒCƒ“ƒXƒg[ƒ‹‚ÍI—¹‚Å‚·B
+ ãƒ»ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å®Œäº†ç”»é¢è¡¨ç¤º â†’ ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—æ­£å¸¸çµ‚äº†ï¼ˆsuccessfullyï¼‰ã‚’ç¢ºèªã—NEXTãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã™ã‚‹ã€‚
+ ãƒ»Finishãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã™ã‚‹ã€‚
+ ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ã‚¦ã‚¤ã‚¶ãƒ¼ãƒ‰ãŒé–‰ã˜ã€GnuPGã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã¯çµ‚äº†ã§ã™ã€‚
 
-8) uƒfƒXƒNƒgƒbƒv‚ÉƒVƒ‡[ƒgƒJƒbƒg‚ðì¬‚µ‚Ü‚·‚©(Y/N)? ‚Æ•\Ž¦‚³‚ê‚Ü‚·‚Ì‚ÅAì¬‚·‚éê‡‚ÍuYv‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
- ƒZƒLƒ…ƒŠƒeƒB‚ÌŒx‚ª•\Ž¦‚³‚ê‚½ê‡‚ÍAu¡‰ñ‚Í‹–‰Âv‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢B
+8) ã€Œãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ã«ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆã‚’ä½œæˆã—ã¾ã™ã‹(Y/N)? ã¨è¡¨ç¤ºã•ã‚Œã¾ã™ã®ã§ã€ä½œæˆã™ã‚‹å ´åˆã¯ã€ŒYã€ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚
+ ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã®è­¦å‘ŠãŒè¡¨ç¤ºã•ã‚ŒãŸå ´åˆã¯ã€ã€Œä»Šå›žã¯è¨±å¯ã€ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚
  
-9) uƒ†[ƒUî•ñ‚ðÝ’è‚µ‚Ä‚­‚¾‚³‚¢Bv‚Æ•\Ž¦‚³‚ê‚Ü‚·B
- OK‚ðƒNƒŠƒbƒN‚·‚é‚Æƒ†[ƒUî•ñÝ’è‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B
+9) ã€Œãƒ¦ãƒ¼ã‚¶æƒ…å ±ã‚’è¨­å®šã—ã¦ãã ã•ã„ã€‚ã€ã¨è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+ OKã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ãƒ¦ãƒ¼ã‚¶æƒ…å ±è¨­å®šç”»é¢ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
 
-10) —˜—pŽÒ‚Ìî•ñ‚ð“ü—Í‚µ‚ÄAOK‚ðƒNƒŠƒbƒN‚·‚é‚ÆƒƒCƒ“‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B
-  (ƒ†[ƒUî•ñ‚ªiniƒtƒ@ƒCƒ‹‚ÉƒvƒŠƒZƒbƒg‚³‚ê‚Ä‚¢‚éê‡‚ÍA•\Ž¦“à—e‚ðŠm”F‚µ‚ÄOK‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢)
-
-
-y6.‹N“®•û–@z------------------------------------------------------------------
-
-ƒVƒ‡[ƒgƒJƒbƒguƒtƒ@ƒCƒ‹ˆÃ†‰»Žx‰‡ƒ\ƒtƒg(S3E)v‚Ü‚½‚ÍS3E.exe‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚Ä‹N“®‚µ‚Ü‚·B
+10) åˆ©ç”¨è€…ã®æƒ…å ±ã‚’å…¥åŠ›ã—ã¦ã€OKã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ãƒ¡ã‚¤ãƒ³ç”»é¢ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+  (ãƒ¦ãƒ¼ã‚¶æƒ…å ±ãŒiniãƒ•ã‚¡ã‚¤ãƒ«ã«ãƒ—ãƒªã‚»ãƒƒãƒˆã•ã‚Œã¦ã„ã‚‹å ´åˆã¯ã€è¡¨ç¤ºå†…å®¹ã‚’ç¢ºèªã—ã¦OKã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„)
 
 
-y7.ƒtƒ@ƒCƒ‹Žd—lz--------------------------------------------------------------
+ã€6.èµ·å‹•æ–¹æ³•ã€‘------------------------------------------------------------------
 
-ˆÃ†‰»ƒtƒ@ƒCƒ‹‚¨‚æ‚ÑƒŒƒV[ƒgƒtƒ@ƒCƒ‹‚ÍA‰º‹L‚Ì–½–¼‹K‘¥‚Åì¬‚³‚ê‚Ü‚·B
-
-ˆÃ†‰»ƒtƒ@ƒCƒ‹   : ID_yyyymmddhhmmss.tgz.gpg
-ƒŒƒV[ƒgƒtƒ@ƒCƒ‹ : ID_yyyymmddhhmmss.txt
-  (ID‚ÍAƒ†[ƒUî•ñÝ’è‰æ–Ê‚ÅÝ’è‚µ‚½IDByyyymmddhhmmss‚ÍAˆÃ†‰»‚ðŽÀs‚µ‚½”NŒŽ“úŽž•ª•b)
-
-ƒŒƒV[ƒgƒtƒ@ƒCƒ‹‚É‚ÍAˆÃ†‰»Œã‚Ìƒtƒ@ƒCƒ‹–¼iEFjAƒtƒ@ƒCƒ‹ƒTƒCƒYiFSjA‘ÎÛƒtƒ@ƒCƒ‹–¼iIFj‚ª‹LÚ‚³‚ê‚Ü‚·B
+ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆã€Œãƒ•ã‚¡ã‚¤ãƒ«æš—å·åŒ–æ”¯æ´ã‚½ãƒ•ãƒˆ(S3E)ã€ã¾ãŸã¯S3E.exeã‚’ãƒ€ãƒ–ãƒ«ã‚¯ãƒªãƒƒã‚¯ã—ã¦èµ·å‹•ã—ã¾ã™ã€‚
 
 
-y8.“à•”Žg—pƒRƒ}ƒ“ƒhz----------------------------------------------------------
+ã€7.ãƒ•ã‚¡ã‚¤ãƒ«ä»•æ§˜ã€‘--------------------------------------------------------------
 
-–{ƒvƒƒOƒ‰ƒ€“à•”‚ÅŽg—p‚·‚éAtar‚¨‚æ‚ÑgpgƒRƒ}ƒ“ƒh‚Í‰º‹L‚Ì‚Æ‚¨‚è‚Å‚·B
+æš—å·åŒ–ãƒ•ã‚¡ã‚¤ãƒ«ãŠã‚ˆã³ãƒ¬ã‚·ãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã¯ã€ä¸‹è¨˜ã®å‘½åè¦å‰‡ã§ä½œæˆã•ã‚Œã¾ã™ã€‚
 
-tar cfz fileName.tgz tmpDirName         tar.gzˆ³k
-gpg -n --verbose --import filePath      ƒCƒ“ƒ|[ƒgÏ‚Ý‚©‚Ç‚¤‚©‚Ìƒ`ƒFƒbƒN
-gpg --verbose --import filePath         ŒöŠJŒ®ƒCƒ“ƒ|[ƒg
-gpg --fingerprint keyid                 ŒöŠJŒ®‚ÌŽw–ä“Ç‚ÝŽæ‚è
-gpg --list-sigs keyid                   ŒöŠJŒ®‚Ì–¼“Ç‚ÝŽæ‚è
-gpg --batch --yes --delete-keys keyid   ŒöŠJŒ®‚Ìíœ
-cmd.exe /c echo y | gpg --command-fd 0 --encrypt --recipient keyid filePath  ˆÃ†‰»
+æš—å·åŒ–ãƒ•ã‚¡ã‚¤ãƒ«   : ID_yyyymmddhhmmss.tgz.gpg
+ãƒ¬ã‚·ãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ãƒ« : ID_yyyymmddhhmmss.txt
+  (IDã¯ã€ãƒ¦ãƒ¼ã‚¶æƒ…å ±è¨­å®šç”»é¢ã§è¨­å®šã—ãŸIDã€‚yyyymmddhhmmssã¯ã€æš—å·åŒ–ã‚’å®Ÿè¡Œã—ãŸå¹´æœˆæ—¥æ™‚åˆ†ç§’)
+
+ãƒ¬ã‚·ãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã«ã¯ã€æš—å·åŒ–å¾Œã®ãƒ•ã‚¡ã‚¤ãƒ«åï¼ˆEFï¼‰ã€ãƒ•ã‚¡ã‚¤ãƒ«ã‚µã‚¤ã‚ºï¼ˆFSï¼‰ã€å¯¾è±¡ãƒ•ã‚¡ã‚¤ãƒ«åï¼ˆIFï¼‰ãŒè¨˜è¼‰ã•ã‚Œã¾ã™ã€‚
 
 
-y9.iniƒtƒ@ƒCƒ‹“à—ez-----------------------------------------------------------
+ã€8.å†…éƒ¨ä½¿ç”¨ã‚³ãƒžãƒ³ãƒ‰ã€‘----------------------------------------------------------
 
-1)GnuPG‚ÌƒpƒX
+æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ å†…éƒ¨ã§ä½¿ç”¨ã™ã‚‹ã€tarãŠã‚ˆã³gpgã‚³ãƒžãƒ³ãƒ‰ã¯ä¸‹è¨˜ã®ã¨ãŠã‚Šã§ã™ã€‚
+
+tar cfz fileName.tgz tmpDirName         tar.gzåœ§ç¸®
+gpg -n --verbose --import filePath      ã‚¤ãƒ³ãƒãƒ¼ãƒˆæ¸ˆã¿ã‹ã©ã†ã‹ã®ãƒã‚§ãƒƒã‚¯
+gpg --verbose --import filePath         å…¬é–‹éµã‚¤ãƒ³ãƒãƒ¼ãƒˆ
+gpg --fingerprint keyid                 å…¬é–‹éµã®æŒ‡ç´‹èª­ã¿å–ã‚Š
+gpg --list-sigs keyid                   å…¬é–‹éµã®ç½²åèª­ã¿å–ã‚Š
+gpg --batch --yes --delete-keys keyid   å…¬é–‹éµã®å‰Šé™¤
+cmd.exe /c echo y | gpg --command-fd 0 --encrypt --recipient keyid filePath  æš—å·åŒ–
+
+
+ã€9.iniãƒ•ã‚¡ã‚¤ãƒ«å†…å®¹ã€‘-----------------------------------------------------------
+
+1)GnuPGã®ãƒ‘ã‚¹
 
 [PathToGnuPG]
 PathToGnuPG=c:/Program Files/gnu/gnupg/gpg.exe
 
-GnuPG‚ÌƒpƒX‚ª‹Lq‚³‚ê‚Ä‚¢‚Ü‚·B
-GnuPG‚ð•ÊƒtƒHƒ‹ƒ_‚ÖƒCƒ“ƒXƒg[ƒ‹‚µ‚½ê‡‚ÍA‚±‚Ì‹Lq‚ð•ÏX‚µ‚Ä‚­‚¾‚³‚¢B
+GnuPGã®ãƒ‘ã‚¹ãŒè¨˜è¿°ã•ã‚Œã¦ã„ã¾ã™ã€‚
+GnuPGã‚’åˆ¥ãƒ•ã‚©ãƒ«ãƒ€ã¸ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸå ´åˆã¯ã€ã“ã®è¨˜è¿°ã‚’å¤‰æ›´ã—ã¦ãã ã•ã„ã€‚
 
 
-2)ƒvƒŠƒZƒbƒgƒ†[ƒUî•ñiÈ—ª‰Âj
+2)ãƒ—ãƒªã‚»ãƒƒãƒˆãƒ¦ãƒ¼ã‚¶æƒ…å ±ï¼ˆçœç•¥å¯ï¼‰
 
 [PresetUserInformation]
 Name=XXXXXXXXXXX
 ID=999999999
 
-ƒvƒŠƒZƒbƒgƒ†[ƒUî•ñ‚ð‹Lq‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-ƒCƒ“ƒXƒg[ƒ‹Žž‚É‹Lq“à—e‚ª‰Šú’l‚Æ‚µ‚ÄƒvƒŠƒZƒbƒg‚³‚ê‚Ü‚·B
-XXXXXXXXXXX : ƒ†[ƒU–¼
+ãƒ—ãƒªã‚»ãƒƒãƒˆãƒ¦ãƒ¼ã‚¶æƒ…å ±ã‚’è¨˜è¿°ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ™‚ã«è¨˜è¿°å†…å®¹ãŒåˆæœŸå€¤ã¨ã—ã¦ãƒ—ãƒªã‚»ãƒƒãƒˆã•ã‚Œã¾ã™ã€‚
+XXXXXXXXXXX : ãƒ¦ãƒ¼ã‚¶å
 999999999 : ID
 
 
-3)ƒvƒŠƒZƒbƒg‘—•tæî•ñiÈ—ª‰Âj
+3)ãƒ—ãƒªã‚»ãƒƒãƒˆé€ä»˜å…ˆæƒ…å ±ï¼ˆçœç•¥å¯ï¼‰
 
 [PresetRecipientInformation]
 Count=1
@@ -190,29 +190,29 @@ PublicKeyTitle1=XXXXXXXXXXX
 PublicKeyFile1=xxxxxxx.asc
 IsRecipient1=1
 
-ƒvƒŠƒZƒbƒg‘—•tæî•ñ‚ð‹Lq‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-ƒCƒ“ƒXƒg[ƒ‹Žž‚É‹Lq“à—e‚ª‰Šú’l‚Æ‚µ‚ÄƒvƒŠƒZƒbƒg‚³‚ê‚Ü‚·B
-XXXXXXXXXXX : ƒvƒŠƒZƒbƒg‚·‚é‘—•tæ–¼Ì
-xxxxxxx.asc : ƒvƒŠƒZƒbƒg‚·‚éŒöŠJŒ®ƒtƒ@ƒCƒ‹–¼
-IsRecipient1=1‚Æ‚·‚é‚ÆA‘—•tæƒŠƒXƒg‚É•\Ž¦‚³‚ê‚Ü‚·B
-IsRecipient1=0‚Æ‚·‚é‚ÆA‘—•tæƒŠƒXƒg‚É•\Ž¦‚³‚ê‚Ü‚¹‚ñB‘æŽOŽÒ‚ª–¼‚µ‚½ŒöŠJŒ®‚ð
-ƒvƒŠƒZƒbƒg‚·‚éê‡A–¼‚ðs‚Á‚½‘æŽOŽÒ‚ÌŒöŠJŒ®‚àƒCƒ“ƒ|[ƒg‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
-iƒCƒ“ƒ|[ƒg‚µ‚È‚¢‚ÆA‘—•tæÝ’è‰æ–Ê‚Ì–¼—“‚É[ƒ†[ƒU[ID‚ª‚Ý‚Â‚©‚è‚Ü‚¹‚ñ]‚Æ
-•\Ž¦‚³‚ê‚Ü‚·j
-–¼‚ðs‚Á‚½‘æŽOŽÒ‚ðA‘—•tæƒŠƒXƒg‚É‹LÚ‚·‚é•K—v‚ª‚È‚¢ê‡‚ÍAIsRecipient1=0‚ð
-Žw’è‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ—ãƒªã‚»ãƒƒãƒˆé€ä»˜å…ˆæƒ…å ±ã‚’è¨˜è¿°ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ™‚ã«è¨˜è¿°å†…å®¹ãŒåˆæœŸå€¤ã¨ã—ã¦ãƒ—ãƒªã‚»ãƒƒãƒˆã•ã‚Œã¾ã™ã€‚
+XXXXXXXXXXX : ãƒ—ãƒªã‚»ãƒƒãƒˆã™ã‚‹é€ä»˜å…ˆåç§°
+xxxxxxx.asc : ãƒ—ãƒªã‚»ãƒƒãƒˆã™ã‚‹å…¬é–‹éµãƒ•ã‚¡ã‚¤ãƒ«å
+IsRecipient1=1ã¨ã™ã‚‹ã¨ã€é€ä»˜å…ˆãƒªã‚¹ãƒˆã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+IsRecipient1=0ã¨ã™ã‚‹ã¨ã€é€ä»˜å…ˆãƒªã‚¹ãƒˆã«è¡¨ç¤ºã•ã‚Œã¾ã›ã‚“ã€‚ç¬¬ä¸‰è€…ãŒç½²åã—ãŸå…¬é–‹éµã‚’
+ãƒ—ãƒªã‚»ãƒƒãƒˆã™ã‚‹å ´åˆã€ç½²åã‚’è¡Œã£ãŸç¬¬ä¸‰è€…ã®å…¬é–‹éµã‚‚ã‚¤ãƒ³ãƒãƒ¼ãƒˆã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
+ï¼ˆã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ãªã„ã¨ã€é€ä»˜å…ˆè¨­å®šç”»é¢ã®ç½²åæ¬„ã«[ãƒ¦ãƒ¼ã‚¶ãƒ¼IDãŒã¿ã¤ã‹ã‚Šã¾ã›ã‚“]ã¨
+è¡¨ç¤ºã•ã‚Œã¾ã™ï¼‰
+ç½²åã‚’è¡Œã£ãŸç¬¬ä¸‰è€…ã‚’ã€é€ä»˜å…ˆãƒªã‚¹ãƒˆã«è¨˜è¼‰ã™ã‚‹å¿…è¦ãŒãªã„å ´åˆã¯ã€IsRecipient1=0ã‚’
+æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
 
 
-y10.ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹•û–@z----------------------------------------------------------
-GnuPGAS3E‚ð—¼•û‚Æ‚àƒAƒ“ƒCƒ“ƒXƒg[ƒ‹•û–@‚ÍˆÈ‰º‚Ì‚Æ‚¨‚è‚Å‚·B
+ã€10.ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•ã€‘----------------------------------------------------------
+GnuPGã€S3Eã‚’ä¸¡æ–¹ã¨ã‚‚ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•ã¯ä»¥ä¸‹ã®ã¨ãŠã‚Šã§ã™ã€‚
 
-1) GnuPGƒCƒ“ƒXƒg[ƒ‹EƒtƒHƒ‹ƒ_“à‚Ì uninst-gnupg.exe ‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚Æ
-GnuPG‚ÌƒAƒ“ƒCƒ“ƒXƒg[ƒ‹EƒEƒBƒU[ƒh‚ªŠJŽn‚µ‚Ü‚·B
+1) GnuPGã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ»ãƒ•ã‚©ãƒ«ãƒ€å†…ã® uninst-gnupg.exe ã‚’ãƒ€ãƒ–ãƒ«ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨
+GnuPGã®ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ»ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰ãŒé–‹å§‹ã—ã¾ã™ã€‚
 
-2) S3EƒtƒHƒ‹ƒ_‚¨‚æ‚ÑƒfƒXƒNƒgƒbƒv‚ÌƒVƒ‡[ƒgƒJƒbƒguƒtƒ@ƒCƒ‹ˆÃ†‰»Žx‰‡ƒ\ƒtƒg(S3E)v‚ð
-íœ‚µ‚Ü‚·B
+2) S3Eãƒ•ã‚©ãƒ«ãƒ€ãŠã‚ˆã³ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ã®ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆã€Œãƒ•ã‚¡ã‚¤ãƒ«æš—å·åŒ–æ”¯æ´ã‚½ãƒ•ãƒˆ(S3E)ã€ã‚’
+å‰Šé™¤ã—ã¾ã™ã€‚
 
-GnuPGŠÇ—‰º‚ÌŒ®î•ñ‚àíœ‚·‚éê‡‚ÍA‰º‹L‚ÌƒtƒHƒ‹ƒ_‚ðíœ‚µ‚Ü‚·B
-C:\Documents and Settings\[ƒ†[ƒU[]\Application Data\gnupg
+GnuPGç®¡ç†ä¸‹ã®éµæƒ…å ±ã‚‚å‰Šé™¤ã™ã‚‹å ´åˆã¯ã€ä¸‹è¨˜ã®ãƒ•ã‚©ãƒ«ãƒ€ã‚’å‰Šé™¤ã—ã¾ã™ã€‚
+C:\Documents and Settings\[ãƒ¦ãƒ¼ã‚¶ãƒ¼]\Application Data\gnupg
 
-i’ˆÓjGnuPGŠÇ—‰º‚ÌŒ®î•ñ‚ðíœ‚·‚é‚ÆA”é–§Œ®‚àíœ‚³‚ê‚Ü‚·B
+ï¼ˆæ³¨æ„ï¼‰GnuPGç®¡ç†ä¸‹ã®éµæƒ…å ±ã‚’å‰Šé™¤ã™ã‚‹ã¨ã€ç§˜å¯†éµã‚‚å‰Šé™¤ã•ã‚Œã¾ã™ã€‚
